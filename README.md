@@ -1,0 +1,112 @@
+[![CI/CD](https://github.com/nogibjj/Ramil-Individual-Project-2/actions/workflows/main.yaml/badge.svg)](https://github.com/nogibjj/Ramil-Individual-Project-2/actions/workflows/main.yaml)
+
+# Project #2: Rust CLI Binary with SQLite
+
+## Overview
+This project is a Command Line Interface (CLI) tool developed in Rust that interacts with a SQLite database. It allows users to perform CRUD (Create, Read, Update, Delete) operations efficiently, loads the CSV to SQLlite database, demonstrating Rust’s capabilities in system programming. The project is optimized to generate a binary using Github Actions, ensuring a fast and lightweight executable.
+
+## Key Features
+- **Rust CLI Application**: Written entirely in Rust, showcasing the language’s syntax and unique features.
+- **SQLite Database**: Includes a SQLite database connection for CRUD operations.
+- **Optimized Binary**: The Rust code is compiled into an optimized binary, made available for download as a GitLab Actions artifact.
+- **Automated CI/CD Pipeline**: GitLab Actions handle testing, building, and linting the code.
+
+## How LLM was Utilized
+Throughout the development process, I used a Language Learning Model (LLM) for guidance on Rust's syntax and best practices, particularly for SQLite integration and structuring efficient database interactions. The LLM was instrumental in code review and optimizing error handling in Rust.
+
+## Dependencies
+- **Rust** (>=1.60): 
+- **SQLite**: Pre-installed on most systems; 
+- **RustLibraries**: reqwest, rusqlite, csv, clap
+
+## Setup and Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nogibjj/Ramil-Individual-Project-2.git
+   cd Ramil-Individual-Project-2
+   ```
+
+2. Build the Rust binary:
+   ```bash
+   cargo build --release
+   ```
+
+3. Run the optimized binary:
+   ```bash
+   ./target/release/rust_ind8
+   ```
+4. Format the Rust code:
+   ```bash
+    make format
+   ```
+5. Lint the Rust code:
+   ```bash
+    make lint
+   ```
+
+6. Check the Rust code:
+   ```bash
+    make check
+   ```
+
+7. Check the Rust code:
+   ```bash
+    make check
+   ```
+
+## Running the Program
+
+The CLI tool allows for basic CRUD operations within the SQLite database. Use the following commands to interact with the database:
+
+```bash
+cargo run -- insert --player "LeBron James" --position "SF" --id "LBJ23" --draft-year 2003 --projected-spm 10.5 --superstar 0.95 --starter 0.85 --role-player 0.75 --bust 0.05
+```
+
+# Read entries
+```bash
+cargo run -- read --id "LBJ23"
+```
+
+# Update an entry
+```bash
+cargo run -- update --id "LBJ23" --new-player "LeBron James" --new-position "PF" --new-draft-year 2004 --new-projected-spm 11.0
+```
+
+# Delete an entry
+```bash
+cargo run -- delete --id "LBJ23"
+```
+
+
+## GitHub Actions CI/CD
+This project includes a GitLab CI/CD pipeline configured with the following:
+- **Testing**: Runs unit tests to validate code functionality.
+- **Building**: Compiles the Rust code and generates an optimized binary.
+- **Linting**: Ensures code quality and Rust best practices.
+- The optimized binary is available as an artifact after each successful pipeline run.
+
+## Video Demo
+For a quick demonstration and walkthrough of the CLI tool, watch this video: [YouTube Demo](https://youtube.com/link).
+
+## Images
+
+**Rust CLI Insert**
+![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/2ef392bf614b40f5a50cf18c9f3e3700c36a218b/images/insert.png)
+
+
+**Rust CLI Read**
+![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/2ef392bf614b40f5a50cf18c9f3e3700c36a218b/images/read.png)
+
+
+**Rust CLI Update**
+![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/2ef392bf614b40f5a50cf18c9f3e3700c36a218b/images/update.png)
+
+
+**Rust CLI Delete**
+![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/2ef392bf614b40f5a50cf18c9f3e3700c36a218b/images/delete.png)
+
+
+**Rust CLI Read After Delete**
+![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/2ef392bf614b40f5a50cf18c9f3e3700c36a218b/images/read%20after%20delete.png)
+
