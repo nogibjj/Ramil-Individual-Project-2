@@ -8,8 +8,8 @@ This project is a Command Line Interface (CLI) tool developed in Rust that inter
 ## Key Features
 - **Rust CLI Application**: Written entirely in Rust, showcasing the language’s syntax and unique features.
 - **SQLite Database**: Includes a SQLite database connection for CRUD operations.
-- **Optimized Binary**: The Rust code is compiled into an optimized binary, made available for download as a GitLab Actions artifact.
-- **Automated CI/CD Pipeline**: GitLab Actions handle testing, building, and linting the code.
+- **Optimized Binary**: The Rust code is compiled into an optimized binary, made available for download as a GitHub Actions artifact.
+- **Automated CI/CD Pipeline**: GitHub Actions handle testing, building, and linting the code.
 
 ## How LLM was Utilized
 Throughout the development process, I used a Language Learning Model (LLM) for guidance on Rust's syntax and best practices, particularly for SQLite integration and structuring efficient database interactions. The LLM was instrumental in code review and optimizing error handling in Rust.
