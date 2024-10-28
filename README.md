@@ -86,8 +86,8 @@ This project includes a GitLab CI/CD pipeline configured with the following:
 - **Linting**: Ensures code quality and Rust best practices.
 - The optimized binary is available as an artifact after each successful pipeline run.
 
-## Video Demo
-For a quick demonstration and walkthrough of the CLI tool, watch this video: [YouTube Demo](https://youtube.com/link).
+## Youtube Video 
+For a quick demonstration and walkthrough of the CLI tool, watch this video: [YouTube video](https://youtu.be/JWNB-1dY3C0).
 
 ## Images
 
