@@ -11,13 +11,16 @@ This project is a Command Line Interface (CLI) tool developed in Rust that inter
 - **Optimized Binary**: The Rust code is compiled into an optimized binary, made available for download as a GitHub Actions artifact.
 - **Automated CI/CD Pipeline**: GitHub Actions handle testing, building, and linting the code.
 
+## Performance Measurements
+
+
 ## How LLM was Utilized
 Throughout the development process, I used a Language Learning Model (LLM) for guidance on Rust's syntax and best practices, particularly for SQLite integration and structuring efficient database interactions. The LLM was instrumental in code review and optimizing error handling in Rust.
 
 ## Dependencies
 - **Rust** (>=1.60): 
 - **SQLite**: Pre-installed on most systems; 
-- **RustLibraries**: reqwest, rusqlite, csv, clap
+- **RustLibraries**: reqwest, rusqlite, csv, clap, rustc-serialize, sys-info
 
 ## Setup and Installation
 
@@ -92,21 +95,21 @@ For a quick demonstration and walkthrough of the CLI tool, watch this video: [Yo
 ## Images
 
 **Rust CLI Insert**
-![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/2ef392bf614b40f5a50cf18c9f3e3700c36a218b/images/insert.png)
+![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/1dd2e0365ddb516342a0e5ffb4a45a15142e5b90/images/Insert_metrics.png)
 
 
 **Rust CLI Read**
-![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/2ef392bf614b40f5a50cf18c9f3e3700c36a218b/images/read.png)
+![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/1dd2e0365ddb516342a0e5ffb4a45a15142e5b90/images/Read_metrics.png)
 
 
 **Rust CLI Update**
-![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/2ef392bf614b40f5a50cf18c9f3e3700c36a218b/images/update.png)
+![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/1dd2e0365ddb516342a0e5ffb4a45a15142e5b90/images/Update_metrics.png)
 
 
 **Rust CLI Delete**
-![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/2ef392bf614b40f5a50cf18c9f3e3700c36a218b/images/delete.png)
+![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/1dd2e0365ddb516342a0e5ffb4a45a15142e5b90/images/Delete_metrics.png)
 
 
 **Rust CLI Read After Delete**
-![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/2ef392bf614b40f5a50cf18c9f3e3700c36a218b/images/read%20after%20delete.png)
+![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/1dd2e0365ddb516342a0e5ffb4a45a15142e5b90/images/read%20after%20delete.png)
 
