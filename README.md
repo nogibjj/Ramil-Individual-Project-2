@@ -12,7 +12,7 @@ This project is a Command Line Interface (CLI) tool developed in Rust that inter
 - **Automated CI/CD Pipeline**: GitHub Actions handle testing, building, and linting the code.
 
 ## Performance Measurements
-
+This project showcases fundamental CRUD operations, but not suited for direct performance benchmarking. You can find the Python code implementing these operations in this repository ([GithubLink](https://https://github.com/nogibjj/Ramil-Python-Script-interacting-with-SQL-Database)), where it also runs quickly. Although no precise performance metrics are included, Rust is significantly faster than Python under heavy workloads. Rust’s speed advantage comes from its compilation into a binary format that runs directly on the OS, utilizing multiple cores and threads. Python, on the other hand, relies on an interpreter that processes code during runtime which takes additional resources and time, and its Global Interpreter Lock (GIL) limits true multicore execution. Sample performance measurements for Rust are provided in the images section below.
 
 ## How LLM was Utilized
 Throughout the development process, I used a Language Learning Model (LLM) for guidance on Rust's syntax and best practices, particularly for SQLite integration and structuring efficient database interactions. The LLM was instrumental in code review and optimizing error handling in Rust.
