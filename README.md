@@ -95,21 +95,26 @@ For a quick demonstration and walkthrough of the CLI tool, watch this video: [Yo
 ## Images
 
 **Rust CLI Insert**
+
 ![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/1dd2e0365ddb516342a0e5ffb4a45a15142e5b90/images/Insert_metrics.png)
 
 
 **Rust CLI Read**
+
 ![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/1dd2e0365ddb516342a0e5ffb4a45a15142e5b90/images/Read_metrics.png)
 
 
 **Rust CLI Update**
+
 ![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/1dd2e0365ddb516342a0e5ffb4a45a15142e5b90/images/Update_metrics.png)
 
 
 **Rust CLI Delete**
+
 ![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/1dd2e0365ddb516342a0e5ffb4a45a15142e5b90/images/Delete_metrics.png)
 
 
 **Rust CLI Read After Delete**
+
 ![Run Example Console Output](https://github.com/nogibjj/Ramil-Individual-Project-2/blob/1dd2e0365ddb516342a0e5ffb4a45a15142e5b90/images/read%20after%20delete.png)
 
